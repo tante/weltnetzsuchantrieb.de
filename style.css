@@ -1,13 +1,20 @@
 body {
     font-size:xx-large;
-    background:rgb(255,255,25);
-    color:rgb(0, 0, 0)
+/**    background:rgb(255,255,25); **/
+/**     color:rgb(0, 0, 0) **/
 }
 
 #distance {
     width:1px;
     height:50%;
     float:left;
+}
+
+#logo {
+    text-align:center;
+    clear: left;
+    margin: 20px auto;
+    position: relative;
 }
 
 #text {
