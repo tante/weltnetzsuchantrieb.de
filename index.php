@@ -10,7 +10,7 @@
 <?php
 if(isset($_REQUEST['Suche'])){
     print("Suchbegriff: ".$_REQUEST['Suche']);
-    $url = "https://ajax.googleapis.com/ajax/services/search/web?v=1.0&lr=lang_de&cr=countryDE&".$_REQUEST['Suche'];
+    $url = "https://ajax.googleapis.com/ajax/services/search/web?v=1.0&lr=lang_de&cr=countryDE&q=".$_REQUEST['Suche'];
     print("Query: ".$URL);
 
     //Anfrage senden 
