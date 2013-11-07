@@ -26,11 +26,9 @@ body {
     font-size:20px;
 }
 
-#text {
-    text-align:center;
-    clear: left;
-    margin:0px auto;          
-    position: relative;
+#ergebnisse {
+    text-align:left;
+    margin:0px 30px auto;          
 }
 
 #footer {

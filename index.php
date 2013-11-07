@@ -23,13 +23,18 @@ if(isset($_REQUEST['Suche'])){
     curl_close($ch);
 
     $ergebnisse = json_decode($inhalte);
-    foreach($ergebnisse->responseData->results as $eintrag){
-        print("Ergebnis :".$eintrag->visibleUrl);
-        print("<br>");
-    }
-}
+?><div id="ergebnisse">
 
+<?php
+    foreach($ergebnisse->responseData->results as $eintrag){
+?><div class="ergebnis">
+    <h3><a href="<?=$eintrag->url ?>"><?=$eintrag->title ?></a></h3>
+<?=$eintrag->visibleUrl ?>
+        </div>
+<?php    } 
+}
 ?>
+</div>
 <div id="footer">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/weltnetzsuchantrieb.de">Code</a>
 </body>
 </html>
