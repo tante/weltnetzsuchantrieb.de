@@ -24,6 +24,11 @@ if(isset($_REQUEST['Suche'])){
 
     print_r($ergebnisse);
 }
+foreach($ergebnisse['responseData']['results'] as $eintrag){
+    print("Ergebnis :".$eintrag["visibleUrl"]);
+    <br>
+}
+
 ?>
 </body>
 </html>
