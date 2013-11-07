@@ -5,7 +5,7 @@
 <br>
 <br>
 <form method="GET">
-    Suche    <input type="text" name="Suche" />
+    Suche    <input type="text" name="Suche" /> <input type="submit" name="Suchen">
 </form>
 <?php
 if(isset($_REQUEST['Suche'])){
@@ -24,9 +24,10 @@ if(isset($_REQUEST['Suche'])){
 
     print_r($ergebnisse);
 }
+
 foreach($ergebnisse['responseData']['results'] as $eintrag){
     print("Ergebnis :".$eintrag["visibleUrl"]);
-    <br>
+    print("<br>");
 }
 
 ?>
