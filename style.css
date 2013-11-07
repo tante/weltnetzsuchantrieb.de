@@ -28,7 +28,7 @@ body {
 
 #ergebnisse {
     text-align:left;
-    margin:0px 30px auto;
+    margin:0px 80px auto;
 }
 
 .title {
@@ -36,7 +36,7 @@ body {
 }
 
 .title a{
-    font-size: 16px;
+    font-size: 25px;
 }
 .page{
     color: red;
