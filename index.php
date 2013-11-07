@@ -8,7 +8,7 @@
     Suche    <input type="text" name="Suche" />
 </form>
 <?php
-if isset($_REQUEST['Suche']){
+if(isset($_REQUEST['Suche'])){
     print("Suchbegriff: ".$_REQUEST['Suche']);
 
 }
