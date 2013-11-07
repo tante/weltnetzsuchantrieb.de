@@ -4,7 +4,7 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <body>
 <div id="distance"></div>
-<div id="logo"><img src="assets/logo.png" alt="logo"/>
+<div id="logo"><img src="assets/logo.png" alt="logo"/><br>
 <form method="GET">
     <input id="suchfeld" type="text" name="Suche" /> <br>
     <input id="abschicken" type="submit" name="suchen" value="suchen"/>
@@ -23,11 +23,10 @@ if(isset($_REQUEST['Suche'])){
     curl_close($ch);
 
     $ergebnisse = json_decode($inhalte);
-}
-
-foreach($ergebnisse->responseData->results as $eintrag){
-    print("Ergebnis :".$eintrag->visibleUrl);
-    print("<br>");
+    foreach($ergebnisse->responseData->results as $eintrag){
+        print("Ergebnis :".$eintrag->visibleUrl);
+        print("<br>");
+    }
 }
 
 ?>

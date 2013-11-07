@@ -6,7 +6,7 @@ body {
 
 #distance {
     width:1px;
-    height:50%;
+    height:10%;
     float:left;
 }
 
@@ -19,7 +19,7 @@ body {
 
 #suchfeld {
     font-size:30px;
-    width: 60em;
+    width: 40%;
 }
 
 #abschicken {
