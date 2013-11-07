@@ -1,11 +1,12 @@
 <html>
 <head>
 <title>Weltnetzsuchantrieb</title></head>
+<link href="style.css" rel="stylesheet" type="text/css">
 <body>
-<br>
-<br>
+<div id="distance"></div>
+<div id="logo"><img src="assets/logo.png" alt="logo"/>
 <form method="GET">
-    Suche    <input type="text" name="Suche" /> <input type="submit" name="Suchen">
+    Suche    <input type="text" name="Suche" /> <input type="submit" name="suchen" value="suchen">
 </form>
 <?php
 if(isset($_REQUEST['Suche'])){
@@ -21,8 +22,6 @@ if(isset($_REQUEST['Suche'])){
     curl_close($ch);
 
     $ergebnisse = json_decode($inhalte);
-
-    print_r($ergebnisse);
 }
 
 foreach($ergebnisse->responseData->results as $eintrag){
@@ -31,5 +30,6 @@ foreach($ergebnisse->responseData->results as $eintrag){
 }
 
 ?>
+<div id="footer">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/weltnetzsuchantrieb.de">Code</a>
 </body>
 </html>
