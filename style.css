@@ -31,10 +31,22 @@ body {
     margin:0px 30px auto;          
 }
 
+.title {
+    font-size: 14px;
+}
+
+.page{
+    color: red;
+}
+
+.content{
+    color: yellow;
+}
+
 #footer {
     position: fixed;
     bottom: 0px;
-    font-size:10px;
+    font-size:12px;
 }
 
 *html #footer {

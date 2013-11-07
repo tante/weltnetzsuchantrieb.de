@@ -11,7 +11,7 @@
 </form>
 <?php
 if(isset($_REQUEST['Suche'])){
-    print("Suchbegriff: ".$_REQUEST['Suche']);
+    print("Ergebnisse im #schlandnet zum Suchbegriff: ".$_REQUEST['Suche']);
     $url = "https://ajax.googleapis.com/ajax/services/search/web?v=1.0&lr=lang_de&cr=countryDE&rsz=8&q=".urlencode($_REQUEST['Suche']);
 
     //Anfrage senden 
@@ -28,7 +28,7 @@ if(isset($_REQUEST['Suche'])){
 <?php
     foreach($ergebnisse->responseData->results as $eintrag){
 ?><div class="ergebnis">
-    <h3><a href="<?=$eintrag->url ?>"><?=$eintrag->title ?></a></h3>
+    <div> class="title"><a href="<?=$eintrag->url ?>"><?=$eintrag->title ?></a></div>
     <div class="page"><?=$eintrag->visibleUrl ?></div>
     <div class="content"><?=$eintrag->content ?></div>
         </div>
