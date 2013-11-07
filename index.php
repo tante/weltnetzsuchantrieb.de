@@ -25,7 +25,7 @@ if(isset($_REQUEST['Suche'])){
     print_r($ergebnisse);
 }
 
-foreach($ergebnisse['responseData']['results'] as $eintrag){
+foreach($ergebnisse->responseData->results as $eintrag){
     print("Ergebnis :".$eintrag["visibleUrl"]);
     print("<br>");
 }
