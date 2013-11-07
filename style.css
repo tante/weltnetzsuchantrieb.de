@@ -28,7 +28,8 @@ body {
 
 #ergebnisse {
     text-align:left;
-    margin:0px 30px auto;          
+    margin:0px 30px auto;
+    background: grey;
 }
 
 .title {
