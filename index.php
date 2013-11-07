@@ -29,7 +29,8 @@ if(isset($_REQUEST['Suche'])){
     foreach($ergebnisse->responseData->results as $eintrag){
 ?><div class="ergebnis">
     <h3><a href="<?=$eintrag->url ?>"><?=$eintrag->title ?></a></h3>
-<?=$eintrag->visibleUrl ?>
+    <div class="page"><?=$eintrag->visibleUrl ?></div>
+    <div class="content"><?=$eintrag->content ?></div>
         </div>
 <?php    } 
 }

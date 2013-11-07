@@ -45,5 +45,5 @@ body {
     margin-right: auto;
 }
 
-/** a:link {color:rgb(220, 220, 220)}  
-a:visited {color:rgb(220, 220, 220)} **/
+a:link {color:rgb(0, 0, 0)}  
+a:visited {color:rgb(0, 0, 0)} 
