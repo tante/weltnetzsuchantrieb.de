@@ -6,7 +6,8 @@
 <div id="distance"></div>
 <div id="logo"><img src="assets/logo.png" alt="logo"/>
 <form method="GET">
-    Suche    <input type="text" name="Suche" /> <input type="submit" name="suchen" value="suchen">
+    <input id="suchfeld" type="text" name="Suche" /> 
+    <input id="abschicken" type="submit" name="suchen" value="suchen"/>
 </form>
 <?php
 if(isset($_REQUEST['Suche'])){

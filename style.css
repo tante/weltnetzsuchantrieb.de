@@ -17,6 +17,15 @@ body {
     position: relative;
 }
 
+#searchfield {
+    font-size:30px;
+    width: 60em;
+}
+
+#abschicken {
+    font-size:20px;
+}
+
 #text {
     text-align:center;
     clear: left;
