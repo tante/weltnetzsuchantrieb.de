@@ -29,11 +29,11 @@ body {
 #ergebnisse {
     text-align:left;
     margin:0px 30px auto;
-    background: grey;
 }
 
 .title {
-    font-size: 14px;
+    font-size: 16px;
+    padding-top:10px;
 }
 
 .page{
@@ -41,7 +41,7 @@ body {
 }
 
 .content{
-    color: yellow;
+    color: #e8e500;
 }
 
 #footer {
