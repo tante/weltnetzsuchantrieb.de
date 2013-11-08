@@ -5,7 +5,7 @@ body {
     font-family: 'UnifrakturMaguntia', cursive;
 }
 
-#distance {
+#distanz {
     width:1px;
     height:10%;
     float:left;
@@ -32,28 +32,28 @@ body {
     margin:0px 30% auto;
 }
 
-.title {
+.titel {
     padding-top:10px;
 }
 
-.title a{
+.titel a{
     font-size: 25px;
 }
-.page{
+.seite{
     color: red;
 }
 
-.content{
+.inhalt{
     color: #e8e500;
 }
 
-#footer {
+#fusszeile {
     position: fixed;
     bottom: 0px;
     font-size:12px;
 }
 
-*html #footer {
+*html #fusszeile {
     position: absolute;
     bottom: 0px;
     display: block;
