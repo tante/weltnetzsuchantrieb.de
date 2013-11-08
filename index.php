@@ -38,6 +38,6 @@ if(isset($_REQUEST['Suche'])){
 ?>
 </div>
 <div id="warum"><a href="http://tante.cc/2013/11/08/der-weltnetzsuchantrieb-ein-kommentar-zum-schlandnet/">Was soll das?</a></div>
-<div id="fusszeile">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/weltnetzsuchantrieb.de">Code</a>
+<div id="fusszeile">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/weltnetzsuchantrieb.de">Code</a>, <script id='fbzwwoq'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=tante&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbzwwoq');</script></div>
 </body>
 </html>
