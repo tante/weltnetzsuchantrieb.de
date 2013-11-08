@@ -8,7 +8,7 @@
 <div id="logo"><img src="assets/logo.png" alt="logo"/><br>
 <form method="GET">
     <input id="suchfeld" type="text" name="Suche" /> <br>
-    <input id="abschicken" type="submit" name="suchen" value="suchen"/>
+    <input id="abschicken" type="submit" name="suchen" value="im #Schlandnet finden"/>
 </form>
 <?php
 if(isset($_REQUEST['Suche'])){
