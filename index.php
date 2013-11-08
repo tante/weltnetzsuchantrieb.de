@@ -1,7 +1,8 @@
 <html>
 <head>
-<title>Weltnetzsuchantrieb</title></head>
+<title>Weltnetzsuchantrieb</title>
 <link href="style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'></head>
 <body>
 <div id="distance"></div>
 <div id="logo"><img src="assets/logo.png" alt="logo"/><br>
