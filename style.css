@@ -48,6 +48,12 @@ body {
     color: #e8e500;
 }
 
+#warum {
+    font-size:2em;
+    font-family: sans-serif;
+    padding-top: 1em;
+}
+
 #fusszeile {
     position: fixed;
     bottom: 0px;

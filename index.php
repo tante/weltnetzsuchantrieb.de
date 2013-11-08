@@ -37,6 +37,7 @@ if(isset($_REQUEST['Suche'])){
 }
 ?>
 </div>
+<div id="warum"><a href="http://tante.cc/2013/11/08/der-weltnetzsuchantrieb-ein-kommentar-zum-schlandnet/">Was soll das?</a></div>
 <div id="fusszeile">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/weltnetzsuchantrieb.de">Code</a>
 </body>
 </html>
