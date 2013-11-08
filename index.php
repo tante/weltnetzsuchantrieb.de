@@ -4,7 +4,7 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'></head>
 <body>
-<div id="distance"></div>
+<div id="distanz"></div>
 <div id="logo"><img src="assets/logo.png" alt="logo"/><br>
 <form method="GET">
     <input id="suchfeld" type="text" name="Suche" /> <br>
@@ -29,14 +29,14 @@ if(isset($_REQUEST['Suche'])){
 <?php
     foreach($ergebnisse->responseData->results as $eintrag){
 ?><div class="ergebnis">
-    <div class="title"><a href="<?=$eintrag->url ?>"><?=$eintrag->title ?></a></div>
-    <div class="page"><?=$eintrag->visibleUrl ?></div>
-    <div class="content"><?=$eintrag->content ?></div>
+    <div class="titel"><a href="<?=$eintrag->url ?>"><?=$eintrag->title ?></a></div>
+    <div class="seite"><?=$eintrag->visibleUrl ?></div>
+    <div class="inhalt"><?=$eintrag->content ?></div>
         </div>
 <?php    } 
 }
 ?>
 </div>
-<div id="footer">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/weltnetzsuchantrieb.de">Code</a>
+<div id="fusszeile">Kontakt: <a href="http://twitter.com">@tante</a>, <a href="http://tante.cc/imprintimpressum/">Impressum</a>, <a href="https://github.com/tante/weltnetzsuchantrieb.de">Code</a>
 </body>
 </html>
